@@ -1,6 +1,6 @@
 import random
-# from replit import clear  # Uncomment if you're using Replit
-# from art import logo      # Uncomment if you have an art.py with logo defined
+# from replit import clear  
+# from art import logo      
 
 def deal_card():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -64,8 +64,5 @@ def play_game():
     print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
     print(compare(user_score, computer_score))
 
-
-# Game loop
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y':
-    # clear()  # Uncomment if using replit to clear the screen
     play_game()
